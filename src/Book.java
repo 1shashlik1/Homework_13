@@ -9,7 +9,7 @@ public class Book {
 
     public void setYear(int year) {
         this.year = year;
-    } // Что-то я вообще не вдупляю как его использовать, хоть убей.
+    }
 
     public Author getAuthor() {
         return author;
@@ -22,7 +22,7 @@ public class Book {
     }
 
     public String toString() {
-        return "Книга: " + "\"" + getTitle() + "\"" +  "\nГод выпуска: " + year + "\nАвтор: " + getAuthor() + '.';
+        return "Книга: " + "\"" + getTitle() + "\"" +  "\nГод выпуска: " + this.year + "\nАвтор: " + getAuthor() + '.';
     }
 
 }
